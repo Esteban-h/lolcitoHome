@@ -1,0 +1,27 @@
+@import '../../shared/styles/colors.scss';
+.MainContainer{
+    background-color: $blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.HeaderContainer{
+    background-color: $bluew;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    .HeadItem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        font-family: "Impact", Charcoal, sans-serif;
+        letter-spacing: 2px;
+        font-size: 25px;
+        color: white;
+        img{height: 80%;}
+    }
+}
